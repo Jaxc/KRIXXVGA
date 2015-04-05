@@ -1,0 +1,137 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: VGA_cont.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VGA_cont.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VGA_cont"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : VGA_cont
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Block
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Block
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" in Library work.
+Entity <VGA_cont> compiled.
+ERROR:HDLParsers:410 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 64. Variable 'nxt' nxt is at left hand side of signal assignment statement.
+ERROR:HDLParsers:410 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 69. Variable 'nxt' nxt is at left hand side of signal assignment statement.
+ERROR:HDLParsers:864 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 94. Actual, Signal 'nxt', associated with Formal Variable, Variable 'nxt', is not a Variable. (LRM 2.1.1)
+ERROR:HDLParsers:808 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 99. = can not have such operands in this context.
+ERROR:HDLParsers:410 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 100. Variable 'temp' temp is at left hand side of signal assignment statement.
+ERROR:HDLParsers:3324 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 102. IN mode Formal crnt of inc_v_cnt with no default value must be associated with an actual value.
+ERROR:HDLParsers:3324 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 105. IN mode Formal crnt of inc_h_cnt with no default value must be associated with an actual value.
+ERROR:HDLParsers:3324 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 117. IN mode Formal crnt of inc_h_cnt with no default value must be associated with an actual value.
+ERROR:HDLParsers:3324 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 124. IN mode Formal crnt of inc_h_cnt with no default value must be associated with an actual value.
+ERROR:HDLParsers:3324 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 132. IN mode Formal crnt of inc_h_cnt with no default value must be associated with an actual value.
+ERROR:HDLParsers:1400 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 139. . is not the name of a procedure.
+ERROR:HDLParsers:3324 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 142. IN mode Formal crnt of inc_h_cnt with no default value must be associated with an actual value.
+ERROR:HDLParsers:1216 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 151. state is not an element of nxt type reg.
+ERROR:HDLParsers:1217 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 151. Symbol nxt can't be used as a prefix in a selected name.
+ERROR:HDLParsers:1212 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 151. Invalid selected name nxt.state.
+ERROR:HDLParsers:3324 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 154. IN mode Formal crnt of inc_v_cnt with no default value must be associated with an actual value.
+ERROR:HDLParsers:3324 - "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd" Line 156. IN mode Formal crnt of inc_h_cnt with no default value must be associated with an actual value.
+--> 
+
+
+Total memory usage is 490556 kilobytes
+
+Number of errors   :   17 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

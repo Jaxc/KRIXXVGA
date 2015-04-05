@@ -1,0 +1,14 @@
+AR vga_cont behavioral /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd sub00/vhpl09 1428160466
+AR charrom rtl /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd sub00/vhpl04 1428150119
+AR clk_div behavioral /home/jaxc/Desktop/KRIXXVGA/krixxVGA/CLK_div.vhd sub00/vhpl13 1428160468
+EN vga_cont NULL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd sub00/vhpl08 1428160465
+EN top NULL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd sub00/vhpl10 1428160469
+AR charrom_old rtl /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd sub00/vhpl07 1428160462
+AR charrom charrom_a /home/jaxc/Desktop/KRIXXVGA/krixxVGA/ipcore_dir/CHARROM.vhd sub00/vhpl05 1428151269
+EN vga_mem NULL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd sub00/vhpl00 1428160463
+AR vga_mem behavioral /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd sub00/vhpl01 1428160464
+EN clk_div NULL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/CLK_div.vhd sub00/vhpl12 1428160467
+AR top behavioral /home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd sub00/vhpl11 1428160470
+PH charrom_package NULL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom_package.vhd sub00/vhpl02 1428160460
+EN charrom_old NULL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd sub00/vhpl06 1428160461
+EN charrom NULL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/ipcore_dir/CHARROM.vhd sub00/vhpl03 1428151268

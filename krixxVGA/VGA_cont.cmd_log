@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.syr" 
+vhdtdtfi -prj krixxVGA -o /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhi -module VGA_cont -template /media/jaxc/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work VGA_cont.vhd 
+vhdtdtfi -prj krixxVGA -o /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhi -module VGA_cont -template /media/jaxc/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work charrom_package.vhd -lib work charrom.vhd -lib work VGA_MEM.vhd -lib work VGA_cont.vhd 

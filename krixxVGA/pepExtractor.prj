@@ -1,0 +1,4 @@
+work	"VGA_MEM.vhd"
+work	"VGA_cont.vhd"
+work	"charrom.vhd"
+work	"charrom_package.vhd"

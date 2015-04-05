@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.ncd
+OUTFILE=/home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/jaxc/Desktop/KRIXXVGA/krixxVGA
+LICENSE=WebPack
+USER_INFO=210716284_0_0_073

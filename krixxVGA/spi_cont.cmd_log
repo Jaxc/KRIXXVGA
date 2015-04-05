@@ -1,0 +1,2 @@
+vhdtdtfi -prj krixxVGA -o /home/jaxc/Desktop/KRIXXVGA/krixxVGA/spi_cont.vhi -module spi_cont -template /media/jaxc/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work SPI_phys.vhd -lib work SPI_cont.vhd 
+vhdtdtfi -prj krixxVGA -o /home/jaxc/Desktop/KRIXXVGA/krixxVGA/spi_cont.vhi -module spi_cont -template /media/jaxc/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work SPI_phys.vhd -lib work SPI_cont.vhd 

@@ -1,0 +1,8 @@
+vhdl work "ipcore_dir/clk_man.vhd"
+vhdl work "charrom_package.vhd"
+vhdl work "charrom.vhd"
+vhdl work "VGA_MEM.vhd"
+vhdl work "SPI_phys.vhd"
+vhdl work "VGA_cont.vhd"
+vhdl work "SPI_cont.vhd"
+vhdl work "top.vhd"

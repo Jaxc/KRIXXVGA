@@ -1,0 +1,3 @@
+vhdl work "charrom_package.vhd"
+vhdl work "charrom.vhd"
+vhdl work "VGA_MEM.vhd"

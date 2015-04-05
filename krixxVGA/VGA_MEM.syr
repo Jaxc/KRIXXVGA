@@ -1,0 +1,440 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: VGA_MEM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VGA_MEM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VGA_MEM"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : VGA_MEM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Block
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Block
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom_package.vhd" in Library work.
+Compiling vhdl file "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd" in Library work.
+Entity <charrom_old> compiled.
+Entity <charrom_old> (Architecture <rtl>) compiled.
+Compiling vhdl file "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd" in Library work.
+Architecture behavioral of Entity vga_mem is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <VGA_MEM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <charrom_old> in library <work> (architecture <rtl>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <VGA_MEM> in library <work> (Architecture <behavioral>).
+Entity <VGA_MEM> analyzed. Unit <VGA_MEM> generated.
+
+Analyzing Entity <charrom_old> in library <work> (Architecture <rtl>).
+Entity <charrom_old> analyzed. Unit <charrom_old> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <charrom_old>.
+    Related source file is "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd".
+WARNING:Xst:1780 - Signal <romdata> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <romaddr> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 4096x8-bit ROM for signal <data$rom0000> created at line 2553.
+    Found 8-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <charrom_old> synthesized.
+
+
+Synthesizing Unit <VGA_MEM>.
+    Related source file is "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd".
+    Found 3-bit register for signal <VGA_out>.
+    Found 6-bit up counter for signal <Char_cnt>.
+    Found 1-bit 8-to-1 multiplexer for signal <data_out$mux0000> created at line 88.
+    Found 3-bit up counter for signal <pixel_cnt>.
+    Found 8-bit up counter for signal <row_cnt>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <VGA_MEM> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4096x8-bit ROM                                        : 1
+# Counters                                             : 3
+ 3-bit up counter                                      : 1
+ 6-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 2
+ 3-bit register                                        : 1
+ 8-bit register                                        : 1
+# Multiplexers                                         : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <charrom_old>.
+INFO:Xst:3044 - The ROM <Mrom_data_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data>.
+INFO:Xst:3225 - The RAM <Mrom_data_rom0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4096-word x 8-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <charrom_old> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4096x8-bit single-port block RAM                      : 1
+# Counters                                             : 3
+ 3-bit up counter                                      : 1
+ 6-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+# Multiplexers                                         : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <VGA_out_0> in Unit <VGA_MEM> is equivalent to the following 2 FFs/Latches, which will be removed : <VGA_out_1> <VGA_out_2> 
+WARNING:Xst:2677 - Node <row_cnt_4> of sequential type is unconnected in block <VGA_MEM>.
+WARNING:Xst:2677 - Node <row_cnt_5> of sequential type is unconnected in block <VGA_MEM>.
+WARNING:Xst:2677 - Node <row_cnt_6> of sequential type is unconnected in block <VGA_MEM>.
+WARNING:Xst:2677 - Node <row_cnt_7> of sequential type is unconnected in block <VGA_MEM>.
+
+Optimizing unit <VGA_MEM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block VGA_MEM, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 14
+ Flip-Flops                                            : 14
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : VGA_MEM.ngr
+Top Level Output File Name         : VGA_MEM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 34
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 3
+#      LUT2                        : 2
+#      LUT3                        : 8
+#      LUT3_D                      : 1
+#      LUT4                        : 4
+#      MUXCY                       : 3
+#      MUXF5                       : 2
+#      MUXF6                       : 1
+#      VCC                         : 1
+#      XORCY                       : 4
+# FlipFlops/Latches                : 14
+#      FDC                         : 3
+#      FDCE                        : 10
+#      FDE                         : 1
+# RAMS                             : 2
+#      RAMB16_S4                   : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 9
+#      OBUF                        : 3
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       10  out of   4656     0%  
+ Number of Slice Flip Flops:             14  out of   9312     0%  
+ Number of 4 input LUTs:                 22  out of   9312     0%  
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of    232     5%  
+ Number of BRAMs:                         2  out of     20    10%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst_n_inv(rst_n_inv1_INV_0:O)      | NONE(Char_cnt_0)       | 13    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.153ns (Maximum Frequency: 194.062MHz)
+   Minimum input arrival time before clock: 2.220ns
+   Maximum output required time after clock: 4.394ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.153ns (frequency: 194.062MHz)
+  Total number of paths / destination ports: 116 / 32
+-------------------------------------------------------------------------
+Delay:               5.153ns (Levels of Logic = 3)
+  Source:            inst_charrom/Mrom_data_rom00001 (RAM)
+  Destination:       VGA_out_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: inst_charrom/Mrom_data_rom00001 to VGA_out_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16_S4:CLK->DO0    1   2.800   0.499  inst_charrom/Mrom_data_rom00001 (data_out<0>)
+     LUT3:I1->O            1   0.704   0.000  Mmux_data_out_mux0000_6 (Mmux_data_out_mux0000_6)
+     MUXF5:I0->O           1   0.321   0.000  Mmux_data_out_mux0000_4_f5 (Mmux_data_out_mux0000_4_f5)
+     MUXF6:I0->O           1   0.521   0.000  Mmux_data_out_mux0000_2_f6 (data_out_mux0000)
+     FDE:D                     0.308          VGA_out_0
+    ----------------------------------------
+    Total                      5.153ns (4.654ns logic, 0.499ns route)
+                                       (90.3% logic, 9.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 17 / 17
+-------------------------------------------------------------------------
+Offset:              2.220ns (Levels of Logic = 1)
+  Source:            rst_n (PAD)
+  Destination:       VGA_out_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst_n to VGA_out_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.447  rst_n_IBUF (rst_n_IBUF)
+     FDE:CE                    0.555          VGA_out_0
+    ----------------------------------------
+    Total                      2.220ns (1.773ns logic, 0.447ns route)
+                                       (79.9% logic, 20.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.394ns (Levels of Logic = 1)
+  Source:            VGA_out_0 (FF)
+  Destination:       VGA_out<2> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: VGA_out_0 to VGA_out<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.591   0.531  VGA_out_0 (VGA_out_0)
+     OBUF:I->O                 3.272          VGA_out_2_OBUF (VGA_out<2>)
+    ----------------------------------------
+    Total                      4.394ns (3.863ns logic, 0.531ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 68.00 secs
+Total CPU time to Xst completion: 68.07 secs
+ 
+--> 
+
+
+Total memory usage is 531864 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

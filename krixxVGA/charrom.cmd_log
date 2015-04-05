@@ -1,0 +1,2 @@
+vhdtdtfi -prj krixxVGA -o /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhi -module charrom -template /media/jaxc/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work charrom.vhd 
+vhdtdtfi -prj krixxVGA -o /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhi -module charrom -template /media/jaxc/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work charrom.vhd 

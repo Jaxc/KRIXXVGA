@@ -1,0 +1,1 @@
+vhdtdtfi -prj krixxVGA -o /home/jaxc/Desktop/KRIXXVGA/krixxVGA/clk_man.vhi -module clk_man -template /media/jaxc/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work CLK_div.vhd 

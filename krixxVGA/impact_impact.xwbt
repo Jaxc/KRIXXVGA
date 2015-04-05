@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/jaxc/Desktop/KRIXXVGA/krixxVGA/impact.xsl
+OUTFILE=/home/jaxc/Desktop/KRIXXVGA/krixxVGA/impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=/home/jaxc/Desktop/KRIXXVGA/krixxVGA
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 VGA_MEM.ngc VGA_MEM.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_MEM_map.ncd VGA_MEM.ngd VGA_MEM.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_MEM_map.ncd VGA_MEM.ncd VGA_MEM.pcf 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 VGA_MEM.ngc VGA_MEM.ngd  
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+xst -intstyle ise -ifn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.xst" -ofn "/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.syr" 
+vhdtdtfi -prj krixxVGA -o /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhi -module VGA_MEM -template /media/jaxc/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work charrom_package.vhd -lib work charrom.vhd -lib work VGA_MEM.vhd 
+vhdtdtfi -prj krixxVGA -o /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhi -module VGA_MEM -template /media/jaxc/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work charrom_package.vhd -lib work charrom.vhd -lib work VGA_MEM.vhd 
+vhdtdtfi -prj krixxVGA -o /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhi -module VGA_MEM -template /media/jaxc/Programs/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work charrom_package.vhd -lib work charrom.vhd -lib work VGA_MEM.vhd 

@@ -1,0 +1,43 @@
+V3 30
+FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd 2015/04/04.15:17:59 P.20131013
+EN work/charrom_old 1428160461 \
+      FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/charrom_old/rtl 1428160462 \
+      FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd EN work/charrom_old 1428160461
+FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom_package.vhd 2015/04/04.14:40:11 P.20131013
+PH work/charrom_package 1428160460 \
+      FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom_package.vhd \
+      PB ieee/std_logic_1164 1381692176 CD charrom_old CD charrom
+FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/CLK_div.vhd 2015/04/04.17:09:40 P.20131013
+EN work/clk_div 1428160467 FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/CLK_div.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/clk_div/BEHAVIORAL 1428160468 \
+      FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/CLK_div.vhd EN work/clk_div 1428160467 \
+      CP IBUFG CP BUFG CP DCM_SP
+FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/ipcore_dir/CHARROM.vhd 2015/04/04.14:38:53 P.20131013
+EN work/charrom 1428151268 \
+      FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/ipcore_dir/CHARROM.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CHARROM/CHARROM_a 1428151269 \
+      FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/ipcore_dir/CHARROM.vhd \
+      EN work/charrom 1428151268
+FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd 2015/04/04.17:13:39 P.20131013
+EN work/top 1428160469 FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1428160470 \
+      FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd EN work/top 1428160469 \
+      CP VGA_MEM CP VGA_cont CP clk_div
+FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd 2015/04/04.16:46:15 P.20131013
+EN work/VGA_cont 1428160465 FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/VGA_cont/Behavioral 1428160466 \
+      FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd EN work/VGA_cont 1428160465
+FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd 2015/04/04.14:43:41 P.20131013
+EN work/VGA_MEM 1428160463 FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PH work/charrom_package 1428160460
+AR work/VGA_MEM/Behavioral 1428160464 \
+      FL /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd EN work/VGA_MEM 1428160463 \
+      CP CHARROM_old
