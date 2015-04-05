@@ -1,0 +1,246 @@
+m255
+K3
+13
+cModel Technology
+d/home/jaxc
+Echarrom_old
+Z0 w1428153479
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 d/home/jaxc/Desktop/KRIXXVGA
+Z5 8/home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd
+Z6 F/home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd
+l0
+L31
+Vi]:h2XLSVYN7ZmoHkifWS0
+!s100 gh:?kA^DO]b>nVY>EaO7<3
+Z7 OV;C;10.1e;51
+32
+!i10b 1
+Z8 !s108 1428226680.462923
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd|
+Z10 !s107 /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Artl
+R1
+R2
+R3
+Z13 DEx4 work 11 charrom_old 0 22 i]:h2XLSVYN7ZmoHkifWS0
+l2557
+L39
+Z14 V11bQn[c39AC>VXlmU`9871
+Z15 !s100 XP@8D>P5II28EYW1B_3cG1
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Pcharrom_package
+R2
+R3
+w1428226269
+R4
+8/home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom_package.vhd
+F/home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom_package.vhd
+l0
+L31
+Vo56hnVLL`;<92Vb8j^l1g3
+R7
+32
+R11
+R12
+!s100 NjF?>RdSlOlfMS18?:c>@0
+!i10b 1
+!s108 1428226680.431770
+!s90 -reportprogress|300|-work|work|-2002|-explicit|/home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom_package.vhd|
+!s107 /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom_package.vhd|
+Espi_cont
+Z16 w1428174312
+R2
+R3
+R4
+Z17 8/home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_cont.vhd
+Z18 F/home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_cont.vhd
+l0
+L32
+VoSg5Mc9J4VdWk^V_1=^oU2
+R7
+32
+Z19 !s108 1428226680.320808
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_cont.vhd|
+Z21 !s107 /home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_cont.vhd|
+R11
+R12
+!s100 o;c_`WnPkn;dE5QXRnEl]2
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 8 spi_cont 0 22 oSg5Mc9J4VdWk^V_1=^oU2
+l71
+L46
+VnkZEFa`MlzZdFNNUdogHk1
+R7
+32
+R19
+R20
+R21
+R11
+R12
+!s100 Z1?[efOhn2Z?:5;IfTleG1
+!i10b 1
+Espi_phys
+Z22 w1423425509
+R2
+R3
+R4
+Z23 8/home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_phys.vhd
+Z24 F/home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_phys.vhd
+l0
+L32
+Vc6H=E<bKjgO72An0=GGEF1
+R7
+32
+Z25 !s108 1428226680.356643
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_phys.vhd|
+Z27 !s107 /home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_phys.vhd|
+R11
+R12
+!s100 hP8lRbY[c@^Md>1oaShPH3
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 8 spi_phys 0 22 c6H=E<bKjgO72An0=GGEF1
+l56
+L53
+V070dcSR@Gj7?kgIchKX>O2
+R7
+32
+R25
+R26
+R27
+R11
+R12
+!s100 El@HD22bNGHg@P0>9jmjb0
+!i10b 1
+Etop
+Z28 w1428184232
+Z29 DPx4 work 15 charrom_package 0 22 o56hnVLL`;<92Vb8j^l1g3
+R2
+R3
+R4
+Z30 8/home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd
+Z31 F/home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd
+l0
+L34
+VQd2e7Z^GI3Cz4?UUTikkW3
+R7
+32
+Z32 !s108 1428226680.284951
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd|
+Z34 !s107 /home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd|
+R11
+R12
+!s100 _2P`_E:zmEMBJ4lX6]QB22
+!i10b 1
+Abehavioral
+R29
+R2
+R3
+DEx4 work 3 top 0 22 Qd2e7Z^GI3Cz4?UUTikkW3
+l127
+L60
+Vo@CP8`OeFX5:KzJm3g>d71
+R7
+32
+R32
+R33
+R34
+R11
+R12
+!s100 0G]=Q9VG4N1FG@:c9e:E?1
+!i10b 1
+Evga_cont
+Z35 w1428225390
+R29
+R1
+R2
+R3
+R4
+Z36 8/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd
+Z37 F/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd
+l0
+L36
+VDW^LOn=7S4Dc___V]PK1[3
+R7
+32
+Z38 !s108 1428226680.240991
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd|
+Z40 !s107 /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd|
+R11
+R12
+!s100 12VS7kG<m[ecgkj@1OLim2
+!i10b 1
+Abehavioral
+R29
+R1
+R2
+R3
+DEx4 work 8 vga_cont 0 22 DW^LOn=7S4Dc___V]PK1[3
+l99
+L50
+VhMe<V>EROQ3?XzAhg2Z0V1
+R7
+32
+R38
+R39
+R40
+R11
+R12
+!s100 PlAW>l1iJdYJLi0=EK[UY2
+!i10b 1
+Evga_mem
+Z41 w1428226646
+R29
+R1
+R2
+R3
+R4
+Z42 8/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd
+Z43 F/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd
+l0
+L36
+V0f2JUE4GZ1;C020hkW@l73
+R7
+32
+Z44 !s108 1428226680.388422
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd|
+Z46 !s107 /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd|
+R11
+R12
+!s100 >4Vh7^[LAm@elX[=ElYO41
+!i10b 1
+Abehavioral
+R29
+R1
+R2
+R3
+DEx4 work 7 vga_mem 0 22 0f2JUE4GZ1;C020hkW@l73
+l63
+L50
+V7=Ka5NmY3>4IMVWQ<Ta0l1
+R7
+32
+R44
+R45
+R46
+R11
+R12
+!s100 j^^oUb^eFgmF<d?GGQMWc0
+!i10b 1
