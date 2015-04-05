@@ -1,0 +1,55 @@
+/home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd {1 {vcom -work work -2002 -explicit /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_cont.vhd
+Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package charrom_package
+-- Compiling entity VGA_cont
+-- Compiling architecture Behavioral of VGA_cont
+
+} {} {}} /home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_cont.vhd {1 {vcom -work work -2002 -explicit /home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_cont.vhd
+Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity spi_cont
+-- Compiling architecture Behavioral of spi_cont
+
+} {} {}} /home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_phys.vhd {1 {vcom -work work -2002 -explicit /home/jaxc/Desktop/KRIXXVGA/krixxVGA/SPI_phys.vhd
+Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SPI_phys
+-- Compiling architecture Behavioral of SPI_phys
+
+} {} {}} /home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd {1 {vcom -work work -2002 -explicit /home/jaxc/Desktop/KRIXXVGA/krixxVGA/top.vhd
+Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package charrom_package
+-- Compiling entity top
+-- Compiling architecture Behavioral of top
+
+} {} {}} /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd {1 {vcom -work work -2002 -explicit /home/jaxc/Desktop/KRIXXVGA/krixxVGA/VGA_MEM.vhd
+Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package charrom_package
+-- Compiling entity VGA_MEM
+-- Compiling architecture Behavioral of VGA_MEM
+
+} {} {}} /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd {1 {vcom -work work -2002 -explicit /home/jaxc/Desktop/KRIXXVGA/krixxVGA/charrom.vhd
+Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity charrom_old
+-- Compiling architecture rtl of charrom_old
+
+} {} {}}
